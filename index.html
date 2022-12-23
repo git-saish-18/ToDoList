@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="todolist.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO-List</title>
+  </head>
+  <body>
+    <div class="container block">
+      <h2 class="heading">ToDo List</h2>
+      <form>
+        <div class="form-group m-5">
+          <label class="headline"><b>__TASK__⤵</b></label>
+          <input type="text"  id="task" required placeholder="Add new task....">
+        </div>
+        <button type="submit"  id="submit" onclick=(update()) >+</button>
+     <input type="reset"   id="reset"  value="X" >
+      </form>
+<hr class="hr">
+    <h3 class="para" > ***Todo list***</h3>
+    <div class="contanier" id="table" >
+      <table border="3">
+        <thead class="thead">
+          <tr>
+            <th>Sr.No</th>
+            
+            <th>Task</th>
+            <th>
+              Action
+            </th>
+          </tr>
+          <tr>
+          </thead>
+          <tbody id="entry">
+
+          </tbody>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contanier" id="delete" >
+      <h3 class="para" > ***Completed Task***</h3>
+      <table border="3">
+        <thead class="thead">
+          <tr>
+            <th>Sr.No</th>
+            
+            <th>Task</th>
+            <th>
+              Action
+            </th>
+          </tr>
+          <tr>
+          </thead>
+          <tbody id="deleentry">
+
+          </tbody>
+        </tr>
+      </table>
+    </div>
+    <div id="footer">
+      <hr class="hr1"/>
+      <footer>
+        <center>copywrite © www.ST/ToDoList...</center>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  </html>
+  

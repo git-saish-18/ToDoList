@@ -1,0 +1,172 @@
+.heading {
+  color: red;
+  background-color: wheat;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  text-align: center;
+  margin: 12px 0px;
+  font-style: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+label.headline {
+  display: inline-block;
+  position: relative;
+  top: -3rem;
+  left: 8rem;
+}
+input#task {
+  border: 3px black;
+  border-style: solid;
+  margin-top: x;
+  width: 58rem;
+  height: 2rem;
+  margin: 4rem 2rem;
+  border-radius: 25px;
+  padding-left: 12px;
+}
+
+.hr {
+  margin: 2rem 0px;
+  border: 2px red solid;
+}
+.hr1 {
+  margin: 0rem 0px;
+  border: 2px red solid;
+}
+.block {
+  margin: 10px 0px;
+  border: 4px gold;
+  border-style: groove;
+  border-radius: 3px;
+}
+div#table {
+  position: relative;
+  left: 22rem;
+  display: inline-block;
+}
+#footer {
+  margin: 0px 0px;
+  position: relative;
+  top: 14rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.para {
+  margin: 30px 0px;
+  text-align: center;
+  font-family: cursive;
+}
+button#submit:hover {
+  background-color: limegreen;
+  border: 2px solid red;
+  cursor: pointer;
+}
+input#reset:hover {
+  background-color: red;
+  border: 2px solid limegreen;
+  cursor: pointer;
+}
+#submit,
+#reset {
+  margin: 10px 1rem 20px 1rem;
+  width: 10rem;
+  position: relative;
+  left: 25rem;
+  border: 2px black solid;
+  border-radius: 4px;
+  background-color: white;
+}
+#hr11 {
+  margin-top: 5rem;
+}
+
+#table {
+  border-radius: 4px;
+}
+.trow {
+  padding-left: 4px;
+}
+th,
+td {
+  padding: 2px 50px;
+  text-align: center;
+}
+
+#del {
+  width: 5rem;
+}
+#del:hover {
+  color: blue;
+  background-color: red;
+}
+div#delete {
+  margin: 4rem 22rem;
+}
+.container.block {
+  margin: 2rem 10rem 6rem 10rem;
+  width: 73rem;
+}
+
+@media (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .para {
+    margin: 30px 0px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.25rem;
+  }
+  th,
+  td {
+    padding: 2px 10px;
+    text-align: center;
+  }
+  div#table {
+    position: relative;
+    left: 3.5rem;
+    display: inline-block;
+  }
+  #submit,
+  #reset {
+    width: 6rem;
+    height: 28px;
+    position: relative;
+    left: 3.5rem;
+    bottom: 1rem;
+  }
+
+  input#task {
+    /* right: 1rem; */
+    border: 2px black;
+    border-style: solid;
+    margin-top: 20px;
+    width: 20rem;
+    /* position: relative; */
+    top: 1rem;
+    display: inline-block;
+    margin: 2rem 1rem 2rem 1.8rem;
+  }
+  .hr {
+    margin: 1rem 0px;
+    border: 2px red solid;
+  }
+
+  div#delete {
+    margin: 4rem 3.5rem;
+  }
+  .container.block {
+    width: 24rem;
+    margin: 6px 2px 5px 10px;
+  }
+  label.headline {
+    top: 1rem;
+    left: 1rem;
+  }
+  div#footer {
+    top: 5rem;
+}
+}
